@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>前端小马哥</title>
   
-  <subtitle>不忘初心，不断深入，分享前端前沿技术</subtitle>
+  <subtitle>不忘初心，持续学习，不断深入</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mazg1987.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://mazg1987.github.io/</id>
   
   <author>
-    <name>mazg</name>
+    <name>martin</name>
     
   </author>
   
