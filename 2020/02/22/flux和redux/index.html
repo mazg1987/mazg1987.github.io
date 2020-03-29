@@ -89,9 +89,9 @@ function activateLightMode(){
 <p>MVC有两个很明显的问题：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.m层和v层直接打交道，导致这两层耦合度高</span><br><span class="line">2.因为所有逻辑都写在c层，导致c层特别臃肿</span><br></pre></td></tr></table></figure>
 
-<p><img src="/" alt="1553222527572" class="lazyload" data-src="/flux%E5%92%8Credux/1553222527572.png"></p>
+<p><img src="/" alt="1553222527572" class="lazyload" data-src="/2020/02/22/flux%E5%92%8Credux/1553222527572.png"></p>
 <h3 id="1-1-2-MVVM"><a href="#1-1-2-MVVM" class="headerlink" title="1.1.2 MVVM"></a>1.1.2 MVVM</h3><p>近年来前端一个明显的开发趋势就是架构从传统的 MVC 模式向 MVVM 模式迁移。在传统的 MVC 下，当前前端和后端发生数据交互后会刷新整个页面，从而导致比较差的用户体验。因此我们通过 Ajax 的方式和网关 REST API 作通讯，异步的刷新页面的某个区块，来优化和提升体验。</p>
-<p><img src="/" alt="1553222636183" class="lazyload" data-src="/flux%E5%92%8Credux/1553222636183.png"></p>
+<p><img src="/" alt="1553222636183" class="lazyload" data-src="/2020/02/22/flux%E5%92%8Credux/1553222636183.png"></p>
 <p>在 MVVM 框架中，View(视图) 和 Model(数据) 是不可以直接通讯的，在它们之间存在着 ViewModel 这个中间介充当着观察者的角色。当用户操作 View(视图)，ViewModel 感知到变化，然后通知 Model 发生相应改变；反之当 Model(数据) 发生改变，ViewModel 也能感知到变化，使 View 作出相应更新。这个一来一回的过程就是我们所熟知的双向绑定。</p>
 <h3 id="1-1-3-Flux"><a href="#1-1-3-Flux" class="headerlink" title="1.1.3 Flux"></a>1.1.3 Flux</h3><p>Flux 是一种架构思想，专门解决软件的结构问题。它跟<a href="http://www.ruanyifeng.com/blog/2007/11/mvc.html" target="_blank" rel="noopener">MVC 架构</a>是同一类东西，但是更加<a href="http://www.infoq.com/news/2014/05/facebook-mvc-flux" target="_blank" rel="noopener">简单和清晰</a>。</p>
 <p>首先，Flux将一个应用分成四个部分。</p>
@@ -113,14 +113,14 @@ function activateLightMode(){
 <li>View 收到”change”事件后，更新页面</li>
 </ol>
 </blockquote>
-<p><img src="/" alt="1553222968163" class="lazyload" data-src="/flux%E5%92%8Credux/1553222968163.png"></p>
+<p><img src="/" alt="1553222968163" class="lazyload" data-src="/2020/02/22/flux%E5%92%8Credux/1553222968163.png"></p>
 <p><img src="/" alt="1553223019430" class="lazyload" data-src="/flux%E5%92%8Credux/1553223019430.png"></p>
 <h2 id="1-2-Redux"><a href="#1-2-Redux" class="headerlink" title="1.2 Redux"></a>1.2 Redux</h2><p><a href="http://cn.redux.js.org/" target="_blank" rel="noopener">http://cn.redux.js.org/</a></p>
 <h3 id="1-2-1-Redux介绍"><a href="#1-2-1-Redux介绍" class="headerlink" title="1.2.1 Redux介绍"></a>1.2.1 Redux介绍</h3><p>我们把Flux看做一个框架的理念的话，Redux是Flux的一种实现。Redux是SPA单页面应用程序中多个组件之间共享数据的一种方式。</p>
 <blockquote>
 <p>Flux的基本原则是“单向数据流”，Redux在此基础上强调三个基本原则：<br>1.唯一数据源 ：唯一数据源指的是应用的状态数据应该只存储在唯一的一个Store上。<br>2.保持状态只读 ： 保持状态只读，就是说不能去直接修改状态，要修改Store的状态，必须要通过派发一个action对象完成。<br>3.数据改变只能通过纯函数完成 ：这里所说的纯函数就是把Reducer，Reducer描述了state状态如何修改。Redux这个名字的前三个字母Red代表的就是Reducer，其实Redux名字的含义就是Reducer+Flux。</p>
 </blockquote>
-<p><img src="/" alt="1553225378607" class="lazyload" data-src="/flux%E5%92%8Credux/1553225378607.png"></p>
+<p><img src="/" alt="1553225378607" class="lazyload" data-src="/1553225378607.png"></p>
 <h3 id="1-2-2-Redux的基本使用"><a href="#1-2-2-Redux的基本使用" class="headerlink" title="1.2.2 Redux的基本使用"></a>1.2.2 Redux的基本使用</h3><p>React和Redux事实上是两个独立的产品，一个应用可以使用React而不使用Redux，也可以使用Redux而不使用React，但是如果两者结合使用，没有理由不使用一个名为react-dedux的库，这个库能大大简化代码的书写。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install redux --save</span><br></pre></td></tr></table></figure>
 
