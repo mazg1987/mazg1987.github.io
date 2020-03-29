@@ -114,13 +114,13 @@ function activateLightMode(){
 </ol>
 </blockquote>
 <p><img src="/" alt="1553222968163" class="lazyload" data-src="/2020/02/22/flux%E5%92%8Credux/1553222968163.png"></p>
-<p><img src="/" alt="1553223019430" class="lazyload" data-src="/flux%E5%92%8Credux/1553223019430.png"></p>
+<p><img src="/" alt="1553223019430" class="lazyload" data-src="/2020/02/22/flux%E5%92%8Credux/1553223019430.png"></p>
 <h2 id="1-2-Redux"><a href="#1-2-Redux" class="headerlink" title="1.2 Redux"></a>1.2 Redux</h2><p><a href="http://cn.redux.js.org/" target="_blank" rel="noopener">http://cn.redux.js.org/</a></p>
 <h3 id="1-2-1-Redux介绍"><a href="#1-2-1-Redux介绍" class="headerlink" title="1.2.1 Redux介绍"></a>1.2.1 Redux介绍</h3><p>我们把Flux看做一个框架的理念的话，Redux是Flux的一种实现。Redux是SPA单页面应用程序中多个组件之间共享数据的一种方式。</p>
 <blockquote>
 <p>Flux的基本原则是“单向数据流”，Redux在此基础上强调三个基本原则：<br>1.唯一数据源 ：唯一数据源指的是应用的状态数据应该只存储在唯一的一个Store上。<br>2.保持状态只读 ： 保持状态只读，就是说不能去直接修改状态，要修改Store的状态，必须要通过派发一个action对象完成。<br>3.数据改变只能通过纯函数完成 ：这里所说的纯函数就是把Reducer，Reducer描述了state状态如何修改。Redux这个名字的前三个字母Red代表的就是Reducer，其实Redux名字的含义就是Reducer+Flux。</p>
 </blockquote>
-<p><img src="/" alt="1553225378607" class="lazyload" data-src="/1553225378607.png"></p>
+<p><img src="/" alt="1553225378607" class="lazyload" data-src="/2020/02/22/flux%E5%92%8Credux/1553225378607.png"></p>
 <h3 id="1-2-2-Redux的基本使用"><a href="#1-2-2-Redux的基本使用" class="headerlink" title="1.2.2 Redux的基本使用"></a>1.2.2 Redux的基本使用</h3><p>React和Redux事实上是两个独立的产品，一个应用可以使用React而不使用Redux，也可以使用Redux而不使用React，但是如果两者结合使用，没有理由不使用一个名为react-dedux的库，这个库能大大简化代码的书写。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install redux --save</span><br></pre></td></tr></table></figure>
 
