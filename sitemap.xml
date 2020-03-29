@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mazg1987.github.io/2019/05/02/vue%E6%A0%B7%E5%BC%8F%E7%A9%BF%E9%80%8F/</loc>
+    
+    <lastmod>2020-03-29T04:47:01.236Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mazg1987.github.io/2019/03/21/vue%E5%8F%8C%E5%90%91%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A/</loc>
+    
+    <lastmod>2020-03-29T04:41:36.098Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mazg1987.github.io/2019/06/26/react%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1/</loc>
+    
+    <lastmod>2020-03-29T04:34:33.097Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mazg1987.github.io/2019/11/29/react-spring%E5%8A%A8%E7%94%BB%E5%BA%93/</loc>
+    
+    <lastmod>2020-03-29T04:27:27.235Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mazg1987.github.io/2020/01/29/umi%E5%92%8Cdva/</loc>
+    
+    <lastmod>2020-03-29T04:26:47.368Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mazg1987.github.io/2020/03/22/nextJS/</loc>
     
     <lastmod>2020-03-29T04:16:53.945Z</lastmod>
@@ -12,20 +47,6 @@
     <loc>https://mazg1987.github.io/2019/06/29/formik%E5%92%8Cyup/</loc>
     
     <lastmod>2020-03-29T04:12:38.782Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mazg1987.github.io/2020/01/29/umi%E5%92%8Cdva/</loc>
-    
-    <lastmod>2020-03-29T04:06:33.080Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mazg1987.github.io/2020/03/29/react-spring%E5%8A%A8%E7%94%BB%E5%BA%93/</loc>
-    
-    <lastmod>2020-03-29T04:01:27.057Z</lastmod>
     
   </url>
   
