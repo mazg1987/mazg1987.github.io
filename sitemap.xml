@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mazg1987.github.io/2020/02/22/flux%E5%92%8Credux/</loc>
+    
+    <lastmod>2020-03-29T03:23:45.544Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mazg1987.github.io/2020/01/22/%E7%B2%BE%E8%AE%B2react%E9%AB%98%E9%98%B6%E7%BB%84%E4%BB%B6/</loc>
+    
+    <lastmod>2020-03-29T03:16:09.640Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mazg1987.github.io/2019/12/29/%E6%89%92%E4%B8%80%E6%89%92react%E7%9A%84ReactTransitionGroup%E5%8A%A8%E7%94%BB/</loc>
+    
+    <lastmod>2020-03-29T03:09:57.291Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mazg1987.github.io/about/index.html</loc>
     
     <lastmod>2020-03-28T05:02:57.197Z</lastmod>
